@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Fixação - Média e Mediana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exercícios de Fixação: Média e Mediana</h1>
+    </header>
+    <main>
+        <section class="exercise">
+            <h2>1. Rendimentos em Tarefas Verbais</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rendimento</th>
+                        <th>Nº de Alunos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><strong>TOTAL</strong></td>
+                        <td><strong>22</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="solution">
+                <h3>Resolução:</h3>
+                <p>
+                    Para calcular a média, somamos os rendimentos multiplicados pelo número de alunos e dividimos pelo total de alunos. 
+                    A mediana é o valor que separa a metade superior da metade inferior dos dados.
+                </p>
+                <p><strong>Média:</strong> (5*2 + 6*2 + 8*8 + 9*6 + 10*4) / 22 = 8.32</p>
+                <p><strong>Mediana:</strong> O valor central é 8, pois, organizando os dados, temos: 
+                    <em>5, 5, 6, 6, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10</em>.
+                </p>
+            </div>
+        </section>
+
+        <section class="exercise">
+            <h2>2. Rendimentos em Tarefas Motoras</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Escores</th>
+                        <th>Frequência (f)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5 - 10</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>10 - 15</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>15 - 20</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>20 - 25</td>
+                        <td>62</td>
+                    </tr>
+                    <tr>
+                        <td>25 - 30</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>30 - 35</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>35 - 40</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>160</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="solution">
+                <h3>Resolução:</h3>
+                <p>
+                    a) Para encontrar o escore exigido para o treinamento especial (30% dos alunos), 
+                    calculamos 30% de 160, que resulta em 48 alunos. O escore correspondente é o limite inferior da quarta classe (20-25).
+                </p>
+                <p>
+                    b) Para delimitar os 75% dos melhores alunos, precisamos identificar o escore que 
+                    separa os 25% inferiores. Assim, 75% de 160 resulta em 120 alunos, correspondendo ao limite superior da quarta classe.
+                </p>
+                <p>
+                    c) Média e mediana dos escores podem ser calculadas da seguinte forma:
+                    A média é dada por: 
+                    <em>(Σ(f*xi)) / Σf</em>, onde xi é a média de cada intervalo. 
+                    A mediana é o valor central que pode ser encontrado na tabela acumulada.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Exercícios de Matemática. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
